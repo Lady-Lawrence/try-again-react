@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './MyNavBar';
+import MyNavBar from "./MyNavBar";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <p className="text-6xl bg-green-300">
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <MyNavBar />
         <a
           className="App-link"
           href="https://reactjs.org"
